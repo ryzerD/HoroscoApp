@@ -54,14 +54,14 @@
         tools:visibility="visible">
 
         <ImageView
-            android:id="@+id/luckyCard"
+            android:id="@+id/ivLuckyCard"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:background="@color/red" />
+             />
 
         <TextView
             android:id="@+id/tvLucky"
@@ -73,7 +73,7 @@
             app:layout_constraintBottom_toTopOf="@+id/tvShare"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/luckyCard"
+            app:layout_constraintTop_toBottomOf="@+id/ivLuckyCard"
             tools:text="Text pruebas" />
 
         <TextView
